@@ -1,15 +1,36 @@
-# Basic Sample Hardhat Project
+# Raise The Stake Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## Installation:
 
-Try running some of the following tasks:
+```
+yarn install
+```
+
+## Run Tests:
+
+```
+yarn hardhat test
+```
+
+## Deploy to Hardhat local node:
+
+Start the local node with the following command in a separate terminal window:
+
+```
+yarn hardhat node
+```
+
+Deploy the contract to local node using:
+
+```
+yarn hardhat run scripts/deploy.js --network localhost
+```
+
+Some more commands:
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+yarn hardhat accounts
+yarn hardhat compile
+yarn hardhat clean
+yarn hardhat help
 ```

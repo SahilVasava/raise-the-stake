@@ -1,4 +1,4 @@
-# Fucking Do It or Get Rugged
+# Raise The Stake
 
 - Create a shipping goal
   - goal
